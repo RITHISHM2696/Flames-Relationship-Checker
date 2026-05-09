@@ -14,7 +14,6 @@ function getFlamesCount(name1, name2) {
 
     let arr1 = name1.split("");
     let arr2 = name2.split("");
-
     // Remove common characters 
     for (let i = 0; i < arr1.length; i++) {
         for (let j = 0; j < arr2.length; j++) {
