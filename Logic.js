@@ -2,7 +2,6 @@
 function cleanName(name) {
     name = name.toUpperCase();
     let result = "";
-
     for (let c of name) {
         if (c >= 'A' && c <= 'Z') {
             result += c;
