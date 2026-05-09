@@ -9,7 +9,6 @@ function cleanName(name) {
     }
     return result;
 }
-
 // Remove matching characters
 function getFlamesCount(name1, name2) {
 
