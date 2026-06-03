@@ -9,7 +9,7 @@ function cleanName(name) {
     }
     return result;
 }
-// Remove matching characters
+// Remove matching character
 function getFlamesCount(name1, name2) {
 
     let arr1 = name1.split("");
